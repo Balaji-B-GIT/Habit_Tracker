@@ -119,6 +119,7 @@ reset.grid(row = 2, column = 0,sticky = "e",padx = 10)
 
 # update = Button(text="Update")
 # update.grid(row = 3, column = 1,sticky = "w",pady=10)
+# no need of update because post works the same
 
 post = Button(text="Post",command=add_pixel,width=10)
 post.grid(row = 2, column = 1,sticky = "w")
